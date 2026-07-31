@@ -1,3 +1,5 @@
+[![Spine Logo](https://raw.githubusercontent.com/YOUR_USERNAME/Spine/main/docs/assets/spine_logo.svg)](https://github.com/ksaad20/Spine)
+
 # Spine
 
 **The Backbone of Robotics.**
