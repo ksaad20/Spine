@@ -97,3 +97,146 @@ Spine/
 ├── README.md
 ├── LICENSE
 └── pyproject.toml
+
+```
+v0.3.2 — Robotics Middleware Core
+Objective
+
+Introduce the communication layer that allows independent robotic components and applications to exchange data.
+
+Equivalent Android concepts:
+
+Binder IPC → Spine service communication
+System Services → Robotics services
+Intent system → Robot events
+
+
+```
+Spine/
+│
+├── spine/
+│   │
+│   ├── middleware/
+│   │   ├── __init__.py
+│   │   │
+│   │   ├── messaging/
+│   │   │   ├── __init__.py
+│   │   │   ├── message.py
+│   │   │   ├── publisher.py
+│   │   │   ├── subscriber.py
+│   │   │   ├── topic.py
+│   │   │   └── serialization.py
+│   │   │
+│   │   ├── services/
+│   │   │   ├── service.py
+│   │   │   ├── registry.py
+│   │   │   ├── discovery.py
+│   │   │   └── lifecycle.py
+│   │   │
+│   │   ├── communication/
+│   │   │   ├── transport.py
+│   │   │   ├── tcp.py
+│   │   │   ├── udp.py
+│   │   │   └── shared_memory.py
+│   │   │
+│   │   └── runtime.py
+│   │
+│   ├── core/
+│   │   ├── application.py
+│   │   ├── package.py
+│   │   ├── permissions.py
+│   │   ├── logging.py
+│   │   └── exceptions.py
+│   │
+│   └── tools/
+│       ├── monitor.py
+│       ├── inspector.py
+│       └── debugger.py
+│
+├── tests/
+│   ├── test_messaging.py
+│   ├── test_services.py
+│   ├── test_runtime.py
+│   └── test_permissions.py
+│
+├── docs/
+│   ├── MIDDLEWARE.md
+│   ├── SERVICE_MODEL.md
+│   └── COMMUNICATION.md
+│
+└── CHANGELOG.md
+
+```
+
+v0.3.3 — Robotics Application Framework
+Objective
+
+Create the developer layer allowing engineers to build robotics applications without directly interacting with kernel or hardware layers.
+
+File Structure
+
+```
+Spine/
+│
+├── spine/
+│
+│   ├── framework/
+│   │   ├── __init__.py
+│   │   │
+│   │   ├── robot/
+│   │   │   ├── robot.py
+│   │   │   ├── component.py
+│   │   │   ├── behavior.py
+│   │   │   ├── state.py
+│   │   │   └── lifecycle.py
+│   │   │
+│   │   ├── perception/
+│   │   │   ├── pipeline.py
+│   │   │   ├── vision.py
+│   │   │   ├── sensor_fusion.py
+│   │   │   └── detection.py
+│   │   │
+│   │   ├── control/
+│   │   │   ├── controller.py
+│   │   │   ├── pid.py
+│   │   │   ├── trajectory.py
+│   │   │   └── feedback.py
+│   │   │
+│   │   ├── ai/
+│   │   │   ├── model.py
+│   │   │   ├── inference.py
+│   │   │   ├── runtime.py
+│   │   │   └── registry.py
+│   │   │
+│   │   └── application.py
+│   │
+│   ├── sdk/
+│   │   ├── __init__.py
+│   │   ├── builder.py
+│   │   ├── generator.py
+│   │   ├── templates.py
+│   │   └── cli.py
+│   │
+│   └── packages/
+│       ├── manager.py
+│       ├── installer.py
+│       ├── resolver.py
+│       └── repository.py
+│
+├── examples/
+│   ├── autonomous_robot.py
+│   ├── vision_robot.py
+│   ├── mobile_robot.py
+│   └── manipulator_robot.py
+│
+├── tests/
+│   ├── test_framework.py
+│   ├── test_sdk.py
+│   └── test_package_manager.py
+│
+├── docs/
+│   ├── SDK_GUIDE.md
+│   ├── APP_MODEL.md
+│   └── PACKAGE_SYSTEM.md
+│
+└── VERSION
