@@ -1,6 +1,7 @@
-To decisively replace ROS 2 and surpass its user count, a next-generation robotics framework cannot just be a marginal improvement; it must fundamentally solve the systemic complexities that plague ROS 2 today. [1, 2, 3] 
-The primary barrier to ROS 2 adoption is its steep learning curve, cumbersome launch configurations, heavy computational overhead, and the sheer complexity of Tuning Data Distribution Service (DDS) Quality of Service (QoS) layers. [4, 5, 6] 
-A framework that successfully displaces ROS 2 will need to target the following exact specifications across five major technical dimensions:
+A next-generation robotics framework cannot just be a marginal improvement; it must fundamentally solve the systemic complexities that plague ROS 2 today. [1, 2, 3] 
+The primary barrier to existing operating system adoption is its steep learning curve, cumbersome launch configurations, heavy computational overhead, and the sheer complexity of Tuning Data Distribution Service (DDS) Quality of Service (QoS) layers. [4, 5, 6] 
+A framework that successfully displaces existing solutions will need to target the following exact specifications across five major technical dimensions:
+
 ## 1. Communication & Transport Specifications
 
 * Protocol Overhaul: Abandon heavy DDS XML configurations in favor of lighter, next-gen alternatives like Zenoh or advanced ZeroMQ architectures to natively reduce serialization latency by over 30%. [3, 6, 7] 
