@@ -4,7 +4,6 @@
   </a>
 </p>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21723504.svg)](https://doi.org/10.5281/zenodo.21723504)
 <!-- BADGES -->
 <p align="center">
   <!-- DOI -->
