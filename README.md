@@ -1,4 +1,4 @@
-[![Spine Logo](https://raw.githubusercontent.com/ksaad20/Spine/docs/assets/spine_logo.svg)](https://github.com/ksaad20/Spine)
+[![Spine Logo](https://raw.githubusercontent.com/ksaad20/Spine/blob/main/docs/assets/spine_logo.svg)](https://github.com/ksaad20/Spine)
 
 # Spine
 
