@@ -1,4 +1,8 @@
-<img src="./docs/assets/spine_logo.svg" width="120" alt="Spine Logo">
+<p align="center">
+  <a href="https://github.com/ksaad20/Spine">
+    <img src="./docs/assets/spine_logo.svg" width="80" alt="Spine Logo">
+  </a>
+</p>
 
 # Spine
 
