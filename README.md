@@ -12,7 +12,7 @@ Spine is an open-source robotics platform that aims to provide a universal found
 
 Modern robotics is fragmented. Every robot often requires custom drivers, hardware interfaces, communication layers, and software stacks. Spine seeks to simplify this by defining a common platform that enables developers to write robotics software once and deploy it across many robot architectures.
 
-Our long-term vision is to become a universal robotics platform that enables interoperability between hardware manufacturers, software developers, researchers, and autonomous systems.
+Our long-term vision is to become a universal robotics platform that enables interoperability among hardware manufacturers, software developers, researchers, and autonomous systems.
 
 ---
 
