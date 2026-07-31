@@ -404,6 +404,8 @@ Spine/
 │   └── SAFETY_MODEL.md
 │
 └── CHANGELOG.md
+
+```
 v0.3.5 — Robotics Simulation Environment
 Objective
 Create a simulation layer where robots can be tested digitally before deployment.
@@ -417,6 +419,8 @@ Virtual device testing
 Development sandbox
 
 File Structure
+
+```
 Spine/
 │
 ├── spine/
@@ -463,6 +467,8 @@ Spine/
     ├── robots/
     ├── environments/
     └── sensors/
+
+```
 v0.3.6 — Perception Framework
 Objective
 Create the first computer vision and sensor intelligence layer.
@@ -470,6 +476,8 @@ Create the first computer vision and sensor intelligence layer.
 Robots gain the ability to understand the environment through cameras, LiDAR, and multimodal sensors.
 
 File Structure
+
+```
 Spine/
 │
 ├── spine/
@@ -518,6 +526,8 @@ Spine/
 │   ├── PERCEPTION.md
 │   ├── VISION_API.md
 │   └── SENSOR_FUSION.md
+
+```
 Milestone Summary
 Version	Capability	Android Analogy
 v0.3.4	Real-time execution	Android Runtime + system services
@@ -625,6 +635,8 @@ Spine/
 │   ├── LOCALIZATION.md
 │   ├── SLAM.md
 │   └── SPATIAL_MODEL.md
+
+```
 v0.3.8 — Navigation and Path Planning System
 Objective
 Create the autonomous navigation layer allowing robots to plan and execute movement.
@@ -636,6 +648,8 @@ Navigation framework
 Background service orchestration
 
 File Structure
+
+```
 Spine/
 │
 ├── spine/
@@ -682,6 +696,8 @@ Spine/
 │   ├── NAVIGATION.md
 │   ├── PATH_PLANNING.md
 │   └── AUTONOMY.md
+
+```
 v0.3.9 — Motion and Manipulation Framework
 Objective
 Introduce robotic movement intelligence including arms, mobile platforms, and humanoid mechanisms.
@@ -693,6 +709,8 @@ Device capability framework
 Hardware capability APIs
 
 File Structure
+
+```
 Spine/
 │
 ├── spine/
@@ -740,6 +758,8 @@ Spine/
 │   ├── MOTION.md
 │   ├── MANIPULATION.md
 │   └── ROBOT_MODELS.md
+
+```
 v0.4.0 — Spine Robotics Platform Foundation Release
 Objective
 First major platform milestone.
@@ -752,7 +772,9 @@ Android 1.0 platform release
 
 Developer ecosystem begins
 
-File Structure
+File Structure:
+
+```
 Spine/
 │
 ├── spine/
@@ -822,6 +844,8 @@ Spine/
 ├── LICENSE
 ├── CITATION.cff
 └── pyproject.toml
+
+```
 Milestone Summary
 Version	Capability	Android Analogy
 v0.3.7	Localization + SLAM	Spatial services
@@ -928,6 +952,8 @@ Spine/
 ├── docs/
 │   ├── DISTRIBUTED_SYSTEM.md
 │   └── NETWORKING.md
+
+```
 v0.4.2 — Cloud Robotics Infrastructure
 Objective
 Connect robots to cloud services for computation, storage, monitoring, and remote management.
@@ -938,7 +964,10 @@ Google services layer
 
 Cloud backup and synchronization
 
-File Structure
+File Structure:
+
+```
+
 Spine/
 │
 ├── spine/
@@ -972,11 +1001,15 @@ Spine/
 ├── docs/
 │   ├── CLOUD_ROBOTICS.md
 │   └── EDGE_COMPUTING.md
+
+```
 v0.4.3 — Robotics AI Runtime
 Objective
 Create a unified AI execution layer for perception, planning, and autonomous decision-making.
 
-File Structure
+File Structure:
+
+```
 Spine/
 │
 ├── spine/
@@ -1011,11 +1044,15 @@ Spine/
 ├── docs/
 │   ├── AI_RUNTIME.md
 │   └── LEARNING_SYSTEM.md
+
+```
 v0.4.4 — Robot Fleet Management
 Objective
 Enable organizations to manage thousands of robots through one unified Spine control layer.
 
-File Structure
+File Structure:
+
+```
 Spine/
 │
 ├── spine/
@@ -1043,11 +1080,15 @@ Spine/
 ├── tests/
 │   ├── test_fleet.py
 │   └── test_operations.py
+
+```
 v0.4.5 — Advanced Simulation Platform
 Objective
 Upgrade simulation into a full robotics development environment.
 
-File Structure
+File Structure:
+
+```
 Spine/
 │
 ├── spine/
@@ -1069,11 +1110,15 @@ Spine/
 │   └── validation/
 │       ├── simulator_test.py
 │       └── reality_gap.py
+
+```
 v0.4.6 — Robotics Security Framework
 Objective
 Protect robots from unauthorized control, malicious software, and unsafe behavior.
 
-File Structure
+File Structure:
+
+```
 Spine/
 │
 ├── spine/
@@ -1090,11 +1135,15 @@ Spine/
 │       ├── emergency_stop.py
 │       ├── constraints.py
 │       └── verification.py
+
+```
 v0.4.7 — Robotics Marketplace Foundation
 Objective
 Create an ecosystem where developers distribute robot applications and capabilities.
 
-File Structure
+File Structure:
+
+```
 Spine/
 │
 ├── spine/
@@ -1111,11 +1160,16 @@ Spine/
 │       ├── api.py
 │       ├── plugins.py
 │       └── compatibility.py
+
+
+```
 v0.4.8 — Developer Ecosystem Expansion
 Objective
 Make Spine accessible to robotics developers worldwide.
 
-File Structure
+File Structure:
+
+```
 Spine/
 │
 ├── sdk/
@@ -1135,11 +1189,16 @@ Spine/
 │       ├── drone/
 │       ├── manipulator/
 │       └── humanoid/
+
+
+```
 v0.4.9 — Production Deployment Layer
 Objective
 Prepare Spine for industrial deployment.
 
-File Structure
+File Structure:
+
+```
 Spine/
 │
 ├── deployment/
