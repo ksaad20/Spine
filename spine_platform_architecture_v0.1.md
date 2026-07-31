@@ -1,7 +1,7 @@
-# Spine OS — Platform Architecture Specification v0.1
+# Spine OS — Platform Architecture Specification v0.0.1
 
 **Document ID:** SPINE-ARCH-001  
-**Version:** 0.1.0-alpha  
+**Version:** 0.0.1-alpha  
 **Date:** 2026-07-31  
 **Status:** Draft — Phase 1 Foundation  
 **Author:** Spine Core Team  
@@ -27,6 +27,7 @@
 
 Spine is designed as a **next-generation robot operating system ecosystem** that addresses the fundamental limitations of legacy middleware. The following principles guide every architectural decision:
 
+```
 ### 1.1 First Principles
 
 | Principle | Rationale | Implication |
@@ -37,6 +38,7 @@ Spine is designed as a **next-generation robot operating system ecosystem** that
 | **Fail-Operational, Not Fail-Safe** | Robots cannot always stop safely. Degradation must be graceful and bounded. | Every component defines a degradation contract with explicit fallback behaviors. |
 | **Composability over Monoliths** | Reuse beats rewrite. Components must compose without recompilation. | Strict interface contracts and dynamic loading are architectural requirements, not implementation details. |
 
+```
 ### 1.2 Non-Goals
 
 To maintain focus, the following are explicitly **not** goals of the Spine platform architecture:
@@ -106,7 +108,7 @@ Spine adopts a **layered microkernel-inspired architecture**. Unlike a pure micr
 │  └──────────┘  └──────────┘  └──────────┘  └──────────┘  └──────────┘        │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
-
+```
 ### 2.2 Layer Responsibilities
 
 | Layer | Responsibility | Guarantees |
@@ -117,7 +119,7 @@ Spine adopts a **layered microkernel-inspired architecture**. Unlike a pure micr
 | **Hardware** | Physical sensors, actuators, and compute units. | Opaque to upper layers; HAL owns the translation. |
 
 ---
-
+```
 ## 3. Core Abstraction Layers
 
 ### 3.1 The Component Framework (CFW)
@@ -166,11 +168,14 @@ A **Node** is the atomic unit of computation in Spine. It is:
 | **Action** | Client / Server | 1:1 per goal | At-least-once, preemptable, with feedback |
 | **Event** | Input only | 1:1 per node | Exactly-once, ordered, system-level |
 
+```
 ### 3.2 Communication Substrate (COMMS)
 
 Spine does not mandate a single transport. Instead, it defines a **transport-agnostic message interface** and provides multiple backends selected at runtime based on deployment topology.
 
 #### 3.2.1 Transport Matrix
+
+```
 
 | Topology | Default Transport | Fallback | Latency Target |
 |----------|------------------|----------|----------------|
@@ -180,6 +185,8 @@ Spine does not mandate a single transport. Instead, it defines a **transport-agn
 | Inter-host (wireless / lossy) | eUDP + FEC | TCP + retry | < 5 ms |
 | MCU bridge (microcontroller) | XRCE-DDS over serial | Custom lightweight protocol | < 1 ms |
 | Cloud bridge | gRPC over QUIC | WebSocket | < 50 ms |
+
+```
 
 #### 3.2.2 Zero-Copy Contract
 
@@ -314,7 +321,7 @@ Spine uses a **distributed gossip-based discovery** protocol with no central nam
 ### 5.2 Quality of Service (QoS) Profiles
 
 Spine defines **six standard QoS profiles** that cover 95% of robotics use cases:
-
+```
 | Profile | Reliability | Durability | History | Deadline | Use Case |
 |---------|-------------|------------|---------|----------|----------|
 | **Sensor** | Best-effort | Volatile | Keep-last (1) | 10 ms | High-frequency sensor streams (LiDAR, camera) |
@@ -325,7 +332,7 @@ Spine defines **six standard QoS profiles** that cover 95% of robotics use cases
 | **Critical** | Reliable | Transient-local | Keep-last (1) | 5 ms | Emergency stop, safety limits |
 
 Users may define custom profiles, but standard profiles are **pre-optimized** in each transport backend.
-
+```
 ### 5.3 Time Synchronization
 
 Spine requires a ** unified time domain** across all nodes in a deployment.
