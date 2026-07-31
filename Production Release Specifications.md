@@ -29,9 +29,3 @@ A framework that successfully displaces existing solutions will need to target t
 * Deterministic Containerization: A sandboxed, immutable package registry (similar to Cargo or Docker) that allows a robot software stack to compile identically across any system architecture, totally resolving the brittle Ubuntu version dependency locking common in ROS 2.
 * Automated Safety Certification: Built-in tools that automatically generate compliance logs and verification artifacts for functional safety standards (such as ISO 26262 for automotive or IEC 61508 for industrial robots) to bypass years of manual hardening. [9, 22, 23, 24, 25] 
 
-If you are considering developing an alternative or picking a stack, let me know:
-
-* Do you want to dive deeper into why DDS is considered the weak point of ROS 2?
-* Are you interested in the emerging Rust-based frameworks (like HORUS or Meta-ROS) that are targeting these specs today?
-
-I can provide a deep technical breakdown of these architectures.
