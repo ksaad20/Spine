@@ -5,6 +5,49 @@
 </p>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21723504.svg)](https://doi.org/10.5281/zenodo.21723504)
+<!-- BADGES -->
+<p align="center">
+  <!-- DOI -->
+  <a href="https://doi.org/10.5281/zenodo.21723504">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21723504.svg" alt="DOI">
+  </a>
+  <!-- License -->
+  <a href="https://github.com/ksaad20/Spine/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/ksaad20/Spine?style=flat-square&color=blue" alt="License">
+  </a>
+  <!-- Release -->
+  <a href="https://github.com/ksaad20/Spine/releases">
+    <img src="https://img.shields.io/github/v/release/ksaad20/Spine?style=flat-square&color=green" alt="Release">
+  </a>
+  <!-- Stars -->
+  <a href="https://github.com/ksaad20/Spine/stargazers">
+    <img src="https://img.shields.io/github/stars/ksaad20/Spine?style=flat-square&color=yellow" alt="Stars">
+  </a>
+  <!-- Forks -->
+  <a href="https://github.com/ksaad20/Spine/network/members">
+    <img src="https://img.shields.io/github/forks/ksaad20/Spine?style=flat-square&color=orange" alt="Forks">
+  </a>
+  <!-- Issues -->
+  <a href="https://github.com/ksaad20/Spine/issues">
+    <img src="https://img.shields.io/github/issues/ksaad20/Spine?style=flat-square&color=red" alt="Issues">
+  </a>
+  <!-- Contributors -->
+  <a href="https://github.com/ksaad20/Spine/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/ksaad20/Spine?style=flat-square&color=purple" alt="Contributors">
+  </a>
+  <!-- Last Commit -->
+  <a href="https://github.com/ksaad20/Spine/commits/main">
+    <img src="https://img.shields.io/github/last-commit/ksaad20/Spine?style=flat-square&color=informational" alt="Last Commit">
+  </a>
+  <!-- Repo Size -->
+  <a href="https://github.com/ksaad20/Spine">
+    <img src="https://img.shields.io/github/repo-size/ksaad20/Spine?style=flat-square&color=lightgrey" alt="Repo Size">
+  </a>
+  <!-- Language -->
+  <a href="https://github.com/ksaad20/Spine">
+    <img src="https://img.shields.io/github/languages/top/ksaad20/Spine?style=flat-square&color=critical" alt="Top Language">
+  </a>
+</p>
 
 # Spine
 
