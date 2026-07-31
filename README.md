@@ -1,4 +1,4 @@
-![Spine Logo](https://raw.githubusercontent.com/ksaad20/Spine/main/docs/assets/spine_logo.svg)
+<img src="./docs/assets/spine_logo.svg" width="120" alt="Spine Logo">
 
 # Spine
 
